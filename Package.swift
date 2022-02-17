@@ -11,8 +11,8 @@ let package = Package(
             name: "LibFileAttrList",
             targets: ["LibFileAttrList"]),
         //.library(
-        //    name: "LibFileAttrListCPP",
-        //    targets: ["LibFileAttrListCPP"]),
+        //    name: "LibCPP",
+        //    targets: ["LibCPP"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -26,7 +26,7 @@ let package = Package(
             dependencies: []
         ),
         //.target(
-        //    name: "LibFileAttrListCPP",
+        //    name: "LibCPP",
         //    dependencies: ["LibFileAttrList"]
         //),
         .testTarget(
