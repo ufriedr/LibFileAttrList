@@ -17,7 +17,7 @@ using namespace std;
 
 
 class FileListAttr {
-public: vector<vector<string>> sayFileListAttr(string dirName);
+public: vector<vector<string> > sayFileListAttr(string dirName);
     
 };
 
