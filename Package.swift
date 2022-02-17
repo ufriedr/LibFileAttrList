@@ -10,6 +10,9 @@ let package = Package(
         .library(
             name: "LibFileAttrList",
             targets: ["LibFileAttrList"]),
+        //.library(
+        //    name: "LibFileAttrListCPP",
+        //    targets: ["LibFileAttrListCPP"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -20,7 +23,12 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "LibFileAttrList",
-            dependencies: []),
+            dependencies: []
+        ),
+        //.target(
+        //    name: "LibFileAttrListCPP",
+        //    dependencies: ["LibFileAttrList"]
+        //),
         .testTarget(
             name: "LibFileAttrListTests",
             dependencies: ["LibFileAttrList"]),
