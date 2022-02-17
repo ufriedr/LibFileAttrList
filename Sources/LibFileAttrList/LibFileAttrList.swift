@@ -1,7 +1,7 @@
 //import LibFileAttrList
 
 public struct LibFileAttrList {
-    public private(set) var text = "Hello, World!"
+    public private(set) var text = "Hello LibFileAttrList"
     
     public init() {
     }
