@@ -7,9 +7,9 @@
 
 #include "FileListAttr.h"
 
-#include <fstream>
+//#include <fstream>
 
-#include <filesystem>
+//#include <filesystem>
 #include <vector>
 
 #include <sys/stat.h>
@@ -17,13 +17,15 @@
 #include <stdio.h>
 
 #include <iostream>
-#include <cstdlib>
+//#include <cstdlib>
 #include <ctime>
-#include <cstring>
-#include <string>
-#include <stdexcept>
-#include <iterator>
-#include <sstream>
+//#include <cstring>
+//#include <string>
+//#include <stdexcept>
+//#include <iterator>
+//#include <sstream>
+#include <filesystem>
+
 
 //
 using namespace std;
