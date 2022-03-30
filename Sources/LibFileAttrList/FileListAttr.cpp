@@ -26,7 +26,6 @@
 #include <iterator>
 #include <sstream>
 
-//
 using namespace std;
 namespace fs = filesystem;
 
@@ -54,7 +53,7 @@ namespace fs = filesystem;
 
 vector< vector<string> > FileListAttr::sayFileListAttr(string dirName)
 {
-    vector<vector<string>> listeFilesAttr;
+    vector<vector<string> > listeFilesAttr;
     // Iterate over the `std::filesystem::directory_entry` elements explicitly
        for (const fs::directory_entry& dir_entry :
            std::filesystem::recursive_directory_iterator(dirName))
